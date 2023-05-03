@@ -337,7 +337,7 @@ const Leads = () => {
         </div>
       </div>
       {companyDrop && (
-        <div className="h-[100%] max-h-[650px] overflow-y-auto">
+        <div className="h-[100%] max-h-[550px]">
         <DropDownModal className="LeadsDropDownModal">
           {Array.from({ length: companyCounts }).map((param, key) => {
             return (
