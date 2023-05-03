@@ -1,0 +1,102 @@
+.welcomeContainer {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 28.7rem;
+  left: 10vw;
+  top: 25vh;
+}
+.welcomeForm {
+  width: 80%;
+}
+.welcomeFormContainer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #cdd3db;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 4px rgb(0 0 0 / 20%);
+  padding: 3rem;
+}
+.welcomeSignForgot {
+  width: 100%;
+  text-align: center;
+}
+.welcomeForgot {
+  width: 100%;
+  text-align: right;
+}
+.welcomeForgot > a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease;
+}
+
+.welcomeForgot > a:hover {
+  color: rgb(47, 98, 207);
+}
+
+.welcomeLabel {
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+  letter-spacing: 2px;
+}
+.welcomeFormInput {
+  padding-left: 10px;
+  border: none;
+  width: 100%;
+  background: none !important;
+  margin-left: 0.3rem;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.welcomeTitle {
+  font-size: 26px;
+}
+.welcomeLoginButton {
+  height: 40px !important;
+  width: 200px !important;
+  background-color: #cdd3db !important;
+  border: 1px solid #cdd3db !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+.welcomeInputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 22px;
+  background: #fbfcfe;
+  border: 1px solid #cdd3db;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.welcomeShowPassword {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+  .welcomeContainer {
+    left: 0;
+    margin: auto !important;
+    position: relative;
+    width: 80%;
+    top: 10vh;
+  }
+  .welcomeFormInput {
+    transition: none;
+  }
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.tabModalContainer {
+  width: 70%;
+  height: 100%;
+  right: 70px;
+  border-radius: 10px;
+  margin-top: 1.6rem;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 99;
+}
+
+.tabModalHeader {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  background-color: #cdd3db;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 67px;
+}
+.tabModalClose {
+  cursor: pointer;
+  font-size: 20px;
+}
+.tabModalTitle {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.chatUserInfoLayout {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tabModalContainer {
+    height: 30rem;
+    right: 20px;
+    position: absolute;
+    margin-bottom: 20rem;
+    margin-right: 1rem;
+  }
+}

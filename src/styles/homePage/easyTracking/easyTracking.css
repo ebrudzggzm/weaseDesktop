@@ -1,0 +1,12 @@
+.dailyTarget {
+  border: 1px solid;
+  background-color: #fbfcfe;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+  padding: 1rem;
+}

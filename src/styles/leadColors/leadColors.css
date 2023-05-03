@@ -1,0 +1,27 @@
+.leadColorsInputs {
+  width: 5rem;
+  margin-top: -2rem;
+}
+
+.leadColorsnputsClass {
+  width: 5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 3px black;
+  text-align: center;
+}
+
+.leadReminder {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
+.leadColorsRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

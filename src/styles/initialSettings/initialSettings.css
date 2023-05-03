@@ -1,0 +1,28 @@
+.initialSettingsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.initialSettingButton {
+  width: 100%;
+  height: 2.2rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 2px grey;
+  border-radius: 5px;
+  text-align: left;
+  display: inline-flex;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 0.7rem;
+  padding: 0.3rem;
+}
+
+.initialTitle {
+  letter-spacing: 2px;
+  width: 15rem;
+  margin-bottom: 1rem;
+}

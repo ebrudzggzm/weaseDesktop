@@ -1,0 +1,85 @@
+footer {
+  background-image: url("../../images/WEB_FOOTER_BACKGROUND.png");
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.foot > a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black !important;
+  margin-top: 3rem;
+}
+
+.foot {
+  margin-left: 3rem;
+}
+
+.footerList,
+.footerList > li,
+.footerList > li > a {
+  margin-left: 1rem;
+  background-color: transparent !important;
+  font-weight: bold;
+}
+
+.footerList > li > a {
+  color: black !important;
+  font-size: 1.1rem;
+}
+
+.footerLogoSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.subscription {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #8190a5;
+  background-image: url("../../images/CALL_PHONE_ICON.png");
+  background-repeat: no-repeat;
+}
+
+.moreInfo {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #97d3db;
+  background-image: url("../../images/MORE_INFO_ICON.png");
+  background-repeat: no-repeat;
+}
+
+.chatUs {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #f5e3b3;
+  background-image: url("../../images/SMS_ICON.png");
+  background-repeat: no-repeat;
+}
+
+.sampleForm {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+  border-style: none;
+  background-position: 10px 5px !important;
+  background-color: #97d3db;
+  background-image: url("../../images/STORAGE_ICON.png");
+  background-repeat: no-repeat;
+}
+
+.logoBand {
+  width: 500px;
+  height: 5rem;
+  background-position: center;
+  background-image: url("../../images/logo_band.png");
+  background-repeat: no-repeat;
+}

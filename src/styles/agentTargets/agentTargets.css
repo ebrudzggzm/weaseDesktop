@@ -1,0 +1,27 @@
+.agentTargetIconsUpdate {
+  border: 1px solid grey;
+  margin-right: 0.5rem;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #8190a5;
+  color: white;
+}
+
+.agentTargetIconsDelete {
+  border: 1px solid grey;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(187, 75, 75);
+  color: white;
+}
+
+.agentTargetIconsAddRow {
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: black;
+  margin-left: 0.2rem;
+}
+
+.agentTargetName {
+  font-weight: bolder;
+}

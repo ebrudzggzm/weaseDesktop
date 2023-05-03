@@ -1,0 +1,172 @@
+.leadDetailsLayout {
+  width: 50%;
+  height: 99%;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  overflow: scroll;
+  padding-bottom: 2rem;
+}
+
+.leadDetailsTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.leadDetailsTimeClock {
+  outline: none;
+  border: 1px solid rgb(218, 215, 215);
+  border-radius: 10px;
+  width: 2.4rem;
+  height: 2rem;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.leadDetailsTimeDate {
+  outline: none;
+  border: 1px solid rgb(218, 215, 215);
+  border-radius: 10px;
+  width: 60%;
+  height: 2rem;
+  text-align: center;
+}
+
+.leadDetailsButton {
+  width: 100%;
+  height: 2.4rem;
+  margin: auto;
+  box-shadow: 0 0 3px grey;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 1.6rem;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: gainsboro;
+  padding: 10px 20px;
+  position: relative;
+ 
+}
+.form-container{ 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin-left: 30px;
+}
+.leadDetailsClientDetails {
+  width: 100%;
+  background-color: white;
+  margin: auto;   
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  margin-right:18px;
+  margin-top: -0.2rem;
+  
+}
+
+.leadDetailsCountryNumberPhone {
+  width: 3rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+  margin-right: -2rem;
+}
+
+.leadDetailsNumber {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+  width: 10rem;
+}
+
+.leadDetailsEmail {
+  margin-left: 5.7rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+  width: 14rem;
+}
+
+.leadDetailGender {
+  margin-left: 5rem;
+  width: 14rem;
+  border-radius: 8px;
+  height: 1.8rem;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.leadDetailCountry {
+  margin-left: 5rem;
+  width: 14rem;
+  height: 1.8rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.leadDetailCity {
+  margin-left: 6.6rem;
+  width: 14rem;
+  border-radius: 8px;
+  height: 1.8rem;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.leadDetailLang {
+  margin-left: 4.3rem;
+  width: 14rem;
+  border-radius: 8px;
+  outline: none;
+  height: 1.8rem;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.leadDetailReference {
+  margin-left: 4.3rem;
+  width: 14rem;
+  border-radius: 8px;
+  height: 1.8rem;
+  outline: none;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.leadDetailsClientDetailsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.parent {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: lightgray;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.full-width {
+  position: absolute;
+  top: 100%;
+  left:100%;
+  bottom: 100%;
+  right: 100%;
+ 
+}

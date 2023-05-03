@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+:root {
+  --messager-height: 3.7rem;
+  --messager-radius: 5px;
+}
+
+.MessageReminderLayout {
+  width: 100%;
+  height: var(--messager-height);
+  border-radius: var(--messager-radius);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.MessageReminderScaler {
+  width: 20%;
+  height: var(--messager-height);
+  border-radius: var(--messager-radius);
+  background-image: url("../images/LOADING_BAR_PP.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MessageReminderMessager {
+  width: 50%;
+  height: var(--messager-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #545454;
+}
+
+.MessageReminderMessager2 {
+  width: 50%;
+  height: var(--messager-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MessageReminderTimer {
+  width: 30%;
+  height: var(--messager-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  border-bottom: 1px solid #545454;
+}
+
+.MessageReminderTimer2 {
+  width: 30%;
+  height: var(--messager-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 0.5rem;
+}
+
+.MessageReminderUser {
+  width: 100%;
+  height: 48%;
+  border-radius: var(--messager-radius);
+  font-weight: bolder !important;
+  padding-top: 5px;
+  font-size: 16px;
+  line-height: 28px;
+  font-style: bolder;
+}
+
+.MessageReminderUserMessage {
+  width: 100%;
+  height: 48%;
+  border-radius: var(--messager-radius);
+  font-size: 14px;
+  padding-top: 5px;
+  font-weight: lighter;
+}
+
+.MessageReminderTimerText {
+  width: 100%;
+  height: 45%;
+  border-radius: var(--messager-radius);
+  font-size: 12px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.MessageReminderTimerIcons {
+  width: 100%;
+  height: 48%;
+  border-radius: var(--messager-radius);
+  font-size: 15px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .MessageReminderTimer {
+    margin-right: 2.5rem;
+  }
+  .MessageReminderMessager {
+    margin-left: 1rem;
+  }
+
+  .MessageReminderUser {
+    font-size: 12px;
+  }
+
+  .MessageReminderUserMessage {
+    font-size: 8px;
+    padding-top: 0px;
+  }
+
+  .MessageReminderMessager {
+    width: 100%;
+  }
+}

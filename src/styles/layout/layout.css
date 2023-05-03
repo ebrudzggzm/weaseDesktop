@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+:root {
+  /* --layoutHeight: calc(100vh - 5.8rem); */
+
+}
+.Layout{
+  width: 20px;
+  height: 30px;
+}
+
+.LayoutContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.LayoutContent {
+  width: 95%;
+  min-height: var(--layoutHeight);
+}
+
+.LayoutVertical {
+  width: 4%;
+  background-color: #fbfcfe;
+  min-height: var(--layoutHeight);
+  margin-block-end: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .LayoutVertical {
+    width: 7%;
+    background-color: white;
+    position:fixed
+  }
+}

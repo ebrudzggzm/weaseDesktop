@@ -1,0 +1,57 @@
+@charset "utf8";
+
+:root {
+  --layoutHeight: calc(100vh - 7.5rem);
+  --layoutWidth: calc(100vw - 5%);
+  
+}
+
+.WeasePanelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  /* width: var(--layoutWidth); */
+  height: var(--layoutHeight);
+  background-color: #E5E5E5;
+}
+
+.WeasePanelLeadSection {
+  display: flex;
+  height: var(--layoutHeight);
+  width: 20%; 
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: aliceblue; */
+  padding-top: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.WeasePanelChatSection {
+  display: flex;
+  height: var(--layoutHeight);
+  width: calc(var(--layoutWidth) / 4 * 3.191);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .WeasePanelContainer {
+    flex-direction: column;
+  }
+
+  .WeasePanelLeadSection {
+    width: calc(var(--layoutWidth));
+    height: auto;
+    margin-top: -2rem;
+  }
+
+  .WeasePanelChatSection {
+    width: calc(var(--layoutWidth));
+  }
+}

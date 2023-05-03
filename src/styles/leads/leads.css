@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.LeadsAccordion {
+  width: 100%;
+  height: 4.2rem;
+  border-radius: 5px;
+  background-color: #8190a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.LeadsCompanyChatsAccordion {
+  width: 100%;
+  height: 4.2rem;
+  border-radius: 5px;
+  background-color: #97D3DB;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.LeadsAccordionStarter {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.LeadsCompanyChatsAccordionStarter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.LeadsAccordionFilter {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.LeadsAccordionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LeadsAccordionCount {
+  border-radius: 50%;
+  background-color: white;
+  width: 1.5rem;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.LeadsCompanyChatsAccordionCount {
+  border-radius: 50%;
+  background-color: white;
+  width: 1.5rem;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.LeadsDropDownModal {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.LeadsDropDownModal {
+  overflow-y: scroll;
+  height: 81%;
+  margin: 0.4rem 0.1rem;
+}
+
+.LeadsSearchInputLayout {
+  width: 98%;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.LeadsSearchInputClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 3px;
+  box-shadow: 0 0 2px black;
+  padding-left: 0.2rem;
+}
+
+.LeadsSearchInput {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  height: 2rem;
+}
+
+.excelLeadsDropDown {
+  height: 70%;
+  background-color: white;
+  box-shadow: 0 0 5px grey;
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 4.1rem;
+  overflow-y: scroll;
+  width: 28.2vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .excelLeadsDropDown {
+    width: 90vw;
+  }
+  .LeadsAccordion,
+  .LeadsCompanyChatsAccordion,
+  .LeadsSearchInputLayout {
+    width: 95%;
+  }
+  .LeadsAccordion {
+    margin-top: 4rem;
+  }
+  .LeadsDropDownModal {
+    height: 9vh;
+  }
+}

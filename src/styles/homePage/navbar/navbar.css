@@ -1,0 +1,115 @@
+.HomePageHorizontalNavbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 80vw !important;
+  padding: 0.4rem;
+  position: fixed;
+}
+.fx {
+  position: fixed !important;
+  background-color: white;
+  width: 100vw;
+  z-index: 999;
+}
+
+.HomePageNavlogo {
+  background-image: url("../../images/logo.svg");
+  width: 280px;
+  height: 8rem;
+  background-repeat: no-repeat;
+  padding: 2rem 0 2rem 0;
+  background-position: center;
+}
+
+.HomePageHorizontalLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 8rem;
+}
+
+.HomePageHorizontalLinksLayout {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.HomePageHorizontalLinksLayout > li {
+  margin-top: 1rem;
+}
+
+.HomePageHorizontalAllLinks {
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a:focus {
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+.HomePageHorizontalLinksLayout > li:hover {
+  text-decoration: none !important;
+}
+
+/* * {
+  outline: 1px solid;
+} */
+
+.HomePageHorizontalNavbarSign {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 8rem;
+}
+
+.HomePageHorizontalNavbarSignLink {
+  margin-right: 1rem;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.HomePagelogoutUser {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  /* background-image: url("https://wease.io/images/landingppnew2.png");
+  background-position: "center";
+  background-repeat: "no-repeat";
+  background-size: "cover"; */
+}
+
+@media only screen and (max-width: 768px) {
+  .HomePageHorizontalNavbarSignLink {
+    color: #2ea8b7;
+    font-weight: bold;
+  }
+  .HomePagelogoutUser {
+    display: none;
+  }
+  .HomePageHorizontalAllLinks {
+    margin-left: 0rem !important;
+    margin-top: 1rem !important;
+  }
+}

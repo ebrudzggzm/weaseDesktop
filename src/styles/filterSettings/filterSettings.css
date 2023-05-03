@@ -1,0 +1,21 @@
+/* .filterSettingsActive {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+} */
+
+.filterSettingsInput {
+  cursor: pointer;
+}
+
+.filterSettingsTitles {
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.filterSettingsClearDateButton {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+}

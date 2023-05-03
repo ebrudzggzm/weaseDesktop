@@ -1,0 +1,63 @@
+.fastResponseCircle {
+  background-image: url("../../images/Rectangle\ 2905.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-left: 1.5rem;
+}
+
+.fastResponseYellowSquare {
+  background-image: url("../../images/YELLOW_BOX.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-left: 1.5rem;
+}
+
+.fastResponseRedSquare {
+  background-image: url("../../images/RED_BOX.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-left: 1.5rem;
+}
+
+.ppl {
+  background-image: url("../../images/ppl-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15rem;
+  width: 15rem;
+  margin: auto;
+}
+
+.greendot {
+  background-image: url("../../images/GREEN_DOT_WEB.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 2rem;
+}
+
+.pplText {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pplLayout {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}

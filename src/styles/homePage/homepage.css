@@ -1,0 +1,60 @@
+@import url("./navbar/navbar.css");
+@import url("./requestPresentation/requestPresentation.css");
+@import url("./fastResponse/fastResponse.css");
+@import url("./easyTracking/easyTracking.css");
+@import url("./homeColors/homeColors.css");
+@import url("./pricing/pricing.css");
+@import url("./homeProductType/homeProductType.css");
+@import url("./homeFooter/homeFooter.css");
+
+.HomePageBg {
+  background-image: url("../images/WEB_BACKGROUND.png");
+  background-position-y: 400px;
+  background-size: cover;
+  /* height: 100vh !important; */
+}
+
+/* * {
+  outline: 1px solid;
+} */
+
+.HomePageIllustration2BG {
+  background-image: url("../images/illustration_2_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.HomePageWeEaseText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.darkblue {
+  background-image: url("../images/MAIN_LEAD_CHAT_DARKBLUE_BLUE.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.darkblueb {
+  background-image: url("../images/MAIN_LEAD_CHAT_DARKBLUE.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.unassigned {
+  background-image: url("../images/WEB_UNASSIGNED_LEADS.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.mobileillustration {
+  background-image: url("../images/mobile-illustration.png");
+  background-repeat: no-repeat;
+  background-position: "center";
+  background-size: cover;
+  height: 500px;
+}

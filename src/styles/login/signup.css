@@ -1,0 +1,118 @@
+.signUpContainer {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 28.7rem;
+  left: 10vw;
+  top: 25vh;
+  border: 1px solid #cdd3db;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 4px rgb(0 0 0 / 20%);
+  padding: 3rem;
+  margin-top: -1rem;
+}
+.singUpContainer {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 28.7rem;
+  left: 10vw;
+  top: 25vh;
+  border: 1px solid #cdd3db;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 4px rgb(0 0 0 / 20%);
+  padding: 3rem;
+}
+.signUpTitle,
+.singUpInfoText {
+  width: 90%;
+}
+.signUpTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Source Sans Pro;
+  margin-top: -10px;
+}
+.singUpForm {
+  width: 80%;
+  margin-bottom: 3px;
+}
+.singUpLabel {
+  font-weight: bold;
+}
+.signUpFormInput {
+  padding-left: 10px;
+  border: none;
+  width: 100%;
+  background: none !important;
+  margin-left: 0.3rem;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  height: 12px !important;
+  font-size: 12px;
+}
+.singUpWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 5px;
+  background: #fbfcfe;
+  border: 1px solid #cdd3db;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.singUpLoginButton {
+  height: 40px;
+  width: 200px;
+  background-color: #cdd3db;
+  border: 1px solid #cdd3db;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+.signUpCheckBoxLayout {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.signUpCheckBoxLayout > span {
+  margin-left: 12px !important;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.signUpCheckBoxInput {
+  cursor: pointer;
+}
+.signUpAgreePriva {
+  color: "#337ab7";
+  cursor: pointer;
+}
+.signUpRadioButtonErrorText {
+  font-size: 12px;
+  color: red;
+}
+@media only screen and (max-width: 1000px) {
+  .signUpContainer {
+    left: 0;
+    margin: auto !important;
+    position: relative;
+    width: 80%;
+    top: 10vh;
+  }
+}

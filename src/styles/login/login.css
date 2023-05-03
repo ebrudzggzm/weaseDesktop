@@ -1,0 +1,22 @@
+@charset "utf8";
+@import "./welcome.css";
+@import "./forgotPassword.css";
+@import "./signup.css";
+
+.loginPage {
+  background-image: url("../images/login-bg.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loginLogoSection {
+  width: 100vw;
+  text-align: center;
+  padding: 2rem;
+}
+.loginLogo {
+  content: url("../images/logo.svg");
+  width: 16rem;
+  vertical-align: middle;
+}

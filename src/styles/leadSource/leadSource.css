@@ -1,0 +1,31 @@
+.leadSourceInputLayout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leadSourceInputClassname {
+  margin-left: 2rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 4px black;
+  text-align: center;
+}
+
+.leadSourceButton {
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 4px black;
+}
+
+.leadSourceColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

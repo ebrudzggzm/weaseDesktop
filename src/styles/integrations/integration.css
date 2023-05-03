@@ -1,0 +1,23 @@
+.integrationItemLayout {
+  width: 95%;
+  height: 2.6rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #e6e9ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.item1 {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 17px;
+}

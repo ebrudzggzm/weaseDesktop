@@ -1,0 +1,18 @@
+.requestPresentationRightColumnBg {
+  background-image: url("../../images/illustration_1_web.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+/* * {
+  outline: 1px solid;
+} */
+.requestPresentationText {
+  font-size: 1.8rem;
+}
+
+.requestPresentationButton {
+  background-color: #e6e9ed !important;
+}

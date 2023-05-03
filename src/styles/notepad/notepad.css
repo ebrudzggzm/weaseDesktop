@@ -1,0 +1,10 @@
+.notepadNote {
+  width: 90%;
+  height: 7rem;
+  border: none;
+  outline: none;
+  margin-left: 1.2rem;
+  box-shadow: 0 0 3px black;
+  border-radius: 10px;
+  resize: none;
+}

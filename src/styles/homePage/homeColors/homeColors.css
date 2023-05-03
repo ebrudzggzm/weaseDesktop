@@ -1,0 +1,102 @@
+.color-div-1 {
+  width: 64px;
+  height: 64px;
+  margin-left: 85px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.015em;
+  background: #8190a5;
+  border: 5px solid #03214c;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  line-height: 50px;
+}
+.color-div-2 {
+  width: 64px;
+  height: 64px;
+  margin-left: 85px;
+  background: #97d3db;
+  border: 5px solid #2ea8b7;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.015em;
+  color: #2ea8b7;
+  line-height: 50px;
+}
+.color-div-3 {
+  width: 64px;
+  height: 64px;
+  margin-left: 85px;
+  background: #f5e3b3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.015em;
+  color: #2ea8b7;
+  line-height: 50px;
+}
+
+.color-div-4 {
+  margin-left: 85px;
+  width: 64px;
+  height: 64px;
+  left: 834px;
+  top: 4688px;
+  background: #f7afa5;
+  border-radius: 10px;
+}
+
+.color-div-5 {
+  margin-left: 85px;
+  width: 64px;
+  height: 64px;
+  left: 980px;
+  top: 4688px;
+  background: #a7d4bd;
+  border-radius: 10px;
+}
+
+.setReminders {
+  background-image: url("../../images/REMINDER_ICON_WEB.png");
+  background-repeat: no-repeat;
+}
+
+.templatesAt {
+  background-image: url("../../images/TEMPLATES_ICON_WEB.png");
+  background-repeat: no-repeat;
+}
+
+.calenderIC {
+  background-image: url("../../images/NOTES_ICON_WEB.png");
+  background-repeat: no-repeat;
+}
+
+.organized {
+  background-image: url("../../images/NOTES_ICON_WEB-1.png");
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+}
+
+.inforow {
+  border: 1px solid #cdd3db;
+  width: 90%;
+  height: 10rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: #fbfcfe;
+}

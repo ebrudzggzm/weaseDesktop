@@ -1,0 +1,140 @@
+.banner {
+  width: 100%;
+  height: 4rem;
+  padding: 2rem 0rem 1rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bannerImg {
+  width: 60%;
+  height: 3rem;
+}
+
+.productTypeCardPrice {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.productTypeCardPriceText {
+  margin-bottom: 0.3rem;
+}
+
+.cardBasic {
+  border: 2px solid #03214c;
+
+  transition: 0.4s ease;
+}
+
+.cardBasic:hover {
+  box-shadow: 0 0 20px #03214c;
+}
+
+.cardStandard {
+  border: 2px solid #2ea8b7;
+
+  transition: 0.4s ease;
+}
+
+.cardStandard:hover {
+  box-shadow: 0 0 20px #2ea8b7;
+}
+
+.cardBusiness {
+  border: 2px solid #ebc768;
+
+  transition: 0.4s ease;
+}
+
+.cardBusiness:hover {
+  box-shadow: 0 0 20px #ebc768;
+}
+
+.cardProfessional {
+  border: 2px solid #ee5f4c;
+
+  transition: 0.4s ease;
+}
+
+.cardProfessional:hover {
+  box-shadow: 0 0 20px #ee5f4c;
+}
+
+.cardStandardButton {
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+  color: white;
+  background: #2ea8b7;
+}
+
+.productTypeCardPriceBuy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem;
+  border-bottom: 1px solid #dddddd;
+}
+.cardBasicButton {
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+  color: white;
+  background: #03214c;
+}
+
+.cardBusinessButton {
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+  color: white;
+  background: #ebc768;
+}
+
+.cardProfessionalButton {
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+  color: white;
+  background: #ee5f4c;
+}
+
+.list-group-item,
+.list-group {
+  border: none !important;
+}
+
+.homeProductTypeHR {
+  width: 90%;
+  height: 1px;
+  margin-left: 1rem;
+  background-color: #dddddd !important;
+}
+
+.connectImg {
+  width: 15px;
+}
+
+.paperImg {
+  width: 15px;
+}

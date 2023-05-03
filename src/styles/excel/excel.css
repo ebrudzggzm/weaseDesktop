@@ -1,0 +1,47 @@
+.excelColumns,
+.excelAllCheck {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.excelAllCheckLabel2 {
+  margin-left: 0.5rem;
+}
+
+.excelCheck {
+  cursor: pointer;
+}
+
+.excelsOptionColumns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.excelClearDateButton {
+  border: none;
+  outline: none;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+}
+
+.excelDateSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.excelUploadButton {
+  width: 2.4rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}

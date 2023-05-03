@@ -1,0 +1,41 @@
+.productAndServicesDropDown {
+  width: 100%;
+  background-color: white;
+  border: 0.5px solid rgb(230, 227, 227);
+  margin: 0.5rem 0 0 0;
+  border-radius: 5px;
+  overflow-y: scroll;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.productAndServiceConfirmButton {
+  width: 40%;
+  height: 2rem;
+  box-shadow: 0 0 3px grey;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.productAndServiceAddButton {
+  border-radius: 5px;
+  padding: 0;
+  background-color: transparent;
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.productAndServicesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.productFamilyAddCompButtonGroup {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1rem;
+}

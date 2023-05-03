@@ -1,0 +1,33 @@
+.userInfoPanel{
+  width:  35%;
+  height: 2rem;
+  
+}
+
+.userInfoUserStatus {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 3px gray, inset 0 0 1px gray;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(4, 194, 4);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.userInfoLogoutButton {
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 0 0 3px gray, inset 0 0 1px gray;
+  color: orangered;
+  text-align: center;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
